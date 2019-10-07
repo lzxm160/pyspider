@@ -1,0 +1,11 @@
+{
+  "taskdb": "mysql+taskdb://root:123456@192.168.146.140:3306/taskdb",
+  "projectdb": "mysql+projectdb://root:123456@192.168.146.140:3306/projectdb",
+  "resultdb": "mysql+resultdb://root:123456@192.168.146.140:3306/resultdb",
+  "message_queue": "amqp://root:123456@192.168.146.140:5672/%2F",
+  "webui": {
+    "username": "root",
+    "password": "123456",
+    "need-auth": true
+  }
+}
